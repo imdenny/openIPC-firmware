@@ -92,6 +92,7 @@ define HISILICON_OSDRV_HI3516CV300_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/usr/lib/ $(HISILICON_OSDRV_HI3516CV300_PKGDIR)/files/lib/libmpi.so
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/usr/lib/ $(HISILICON_OSDRV_HI3516CV300_PKGDIR)/files/lib/libupvqe.so
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/usr/lib/ $(HISILICON_OSDRV_HI3516CV300_PKGDIR)/files/lib/libVoiceEngine.so
+	$(INSTALL) -m 644 -t $(TARGET_DIR)/usr/lib/ $(HISILICON_OSDRV_HI3516CV300_PKGDIR)/files/lib/libsecurec.so
 endef
 
 $(eval $(generic-package))
